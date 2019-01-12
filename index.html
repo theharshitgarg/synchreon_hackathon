@@ -15,7 +15,6 @@
     <script src="app.js"></script>
   </body>
 </html> -->
-<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -29,16 +28,16 @@
     <title>Retail Solution</title>
   </head>
   <body>
+    <!-- <div id="header"></div> -->
     <nav class="navbar navbar-inverse">
-      <!-- <h1>Retail Solution</h1>   -->
         <ul class="nav nav-tabs">
           <li class="nav-item">
             <div class="dropdown">
               <button class="dropbtn">Electronics</button>
               <div class="dropdown-content">
-                <a href="#">Mobiles</a>
-                <a href="#">Laptops</a>
-                <a href="#">Desktop PCs</a>
+                <a href="templates/mobiles.html">Mobiles</a>
+                <a href="templates/laptops.html">Laptops</a>
+                <a href="templates/desktops.html">Desktop PCs</a>
               </div>
             </div>
           </li>
@@ -46,9 +45,8 @@
             <div class="dropdown">
               <button class="dropbtn">Men</button>
               <div class="dropdown-content">
-                <a href="#">Clothing</a>
-                <a href="#">Personal Care</a>
-                <a href="#"></a>
+                <a href="templates/clothing.html">Clothing</a>
+                <a href="templates/care.html">Personal Care</a>
               </div>
             </div>
           </li>
@@ -56,15 +54,34 @@
             <div class="dropdown">
               <button class="dropbtn">Women</button>
               <div class="dropdown-content">
-                <a href="#">Clothing</a>
-                <a href="#">Personal Care</a>
-                <a href="#"></a>
+                <a href="templates/clothing.html">Clothing</a>
+                <a href="templates/care.html">Personal Care</a>
               </div>
             </div>
           </li>
         </ul>
-    </nav>  
-
+        <!-- <ul class="nav nav-tabs text-right">
+          <li class="nav-item">
+            <div class="">Login/Signup</div>
+          </li>
+          <li class="nav-item">
+            <div class="">Cart</div>
+          </li>
+        </ul> -->
+    </nav>
+    <!--Remaining section-->
+    <div id="footer"></div> 
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <!-- <script> 
+      $(function(){
+        $("#header").load("templates/header.html"); 
+        $("#footer").load("templates/footer.html"); 
+      });
+    </script> -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
